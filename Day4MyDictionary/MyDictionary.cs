@@ -27,7 +27,8 @@ namespace Day4MyDictionary
             
             for (int i = 0; i < Tkeys.Length; i++)
             {
-                Tkeys[i] = TkeysTemp[i];
+                Tkeys[i] = TkeysTemp[i]; // System.IndexOutOfRangeException: 'Index was outside the bounds of the array.'
+                                            //hatasu almaktayım
 
             }
             Tkeys[Tkeys.Length - 1] = key;
